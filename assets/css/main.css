@@ -651,7 +651,8 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: rgba(0, 0, 0, 0.5); /* hitam transparan 50% */
+  /* background: color-mix(in srgb, var(--background-color), transparent 70%); */
   position: absolute;
   inset: 0;
   z-index: 2;
