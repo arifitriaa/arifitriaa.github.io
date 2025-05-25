@@ -638,7 +638,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  background: url(../img/ari-bg.jpg) top center no-repeat;
+  background: url(../img/hero2-bg.jpg) top center no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 90vh;
@@ -651,8 +651,8 @@ section,
 
 .hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5); /* hitam transparan 50% */
-  /* background: color-mix(in srgb, var(--background-color), transparent 70%); */
+  /* background: rgba(0, 0, 0, 0.5); hitam transparan 50% */
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
   position: absolute;
   inset: 0;
   z-index: 2;
